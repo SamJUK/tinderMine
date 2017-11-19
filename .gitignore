@@ -1,0 +1,8 @@
+node_modules/
+data/
+.idea/
+creds/
+www/data
+
+errors.json
+recs.json

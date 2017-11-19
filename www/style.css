@@ -1,0 +1,111 @@
+html, body{
+    background: #222;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.filters{
+    width: 75%;
+    margin: 50px auto auto;
+}
+
+.filters .filters_content .filter input[disabled]{
+    opacity: .5;
+}
+
+.users{
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.users .user{
+    display: inline-block;
+    width: 18%;
+    min-width: 200px;
+    margin: 10px 0;
+    padding: 0 0 10px 0;
+    background: #181818;
+    border-radius: 6px;
+}
+.users .user img{
+    width: 100%;
+    height: auto;
+}
+.users .user h1{
+    font-size: 16px;
+    text-align: center;
+    color: #fefefe;
+    margin-bottom: 5px;
+}
+.users .user span{
+    font-size: 12px;
+    color: #a7a3a3;
+    text-align: center;
+    display: block;
+}
+.users .user .distance{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.users .user .distance span{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 5px;
+}
+.users .user .distance svg{
+    height: 15px;
+    width: 15px;
+    fill: #353333;
+    vertical-align: middle;
+    display: inline-block;
+}
+.users .user .button-set{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.users .user .button-set a{
+    font-size: 14px;
+    color: #d45c46;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #d45c46;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.users .user .button-set a:hover{
+    opacity:.7;
+}
+
+.profile{
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fefefe;
+    background: #181818;
+    border-radius: 6px;
+}
+.profile .profile-pictures{
+    width: 300px;
+    margin: auto;
+}
+.profile .slick-initialized .slick-slide{
+    height: 300px;
+    width: 300px;
+
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.profile h1{
+    font-size: 22px;
+}
